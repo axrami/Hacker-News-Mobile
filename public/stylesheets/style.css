@@ -15,10 +15,10 @@ a {
   height: 30px;
   width: 100%;
   background-color: #fa680f;
-  padding: auto;
 }
 img {
   border: solid;
   border-color: #fff;
   border-width: 1px;
+  margin: 5px;
 }
