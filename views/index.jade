@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .header
+    img(src="https://news.ycombinator.com/y18.gif")
+  ol
+    - items.forEach(function(item) {
+      li.wrapper
+        a(href=item.link)
+          h2= item.title
+    - })
